@@ -2,7 +2,7 @@
 //  Randevu_SistemiUITests.swift
 //  Randevu SistemiUITests
 //
-//  Created by Lamia Yılmaz on 7/17/25.
+//  Created by Lamia Yılmaz 
 //
 
 import XCTest

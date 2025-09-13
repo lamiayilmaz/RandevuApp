@@ -2,7 +2,7 @@
 //  Enums.swift
 //  Randevu Sistemi
 //
-//  Created by Lamia Yılmaz on 7/25/25.
+//  Created by Lamia Yılmaz
 //
 
 import Foundation

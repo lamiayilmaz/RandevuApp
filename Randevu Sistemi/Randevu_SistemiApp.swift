@@ -2,7 +2,7 @@
 //  Randevu_SistemiApp.swift
 //  Randevu Sistemi
 //
-//  Created by Lamia Yılmaz on 7/17/25.
+//  Created by Lamia Yılmaz
 //
 
 import SwiftUI

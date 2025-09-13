@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DA9107B2E4238EE00F0728F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3DA9107A2E4238EE00F0728F /* FirebaseAuth */; };
 		3DAB81F92E2A0CD3007A461D /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3DAB81F82E2A0CD3007A461D /* FirebaseFirestore */; };
 		3DAB81FB2E2A0F25007A461D /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 3DAB81FA2E2A0F25007A461D /* FirebaseCore */; };
-		3DAB81FD2E2A1938007A461D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3DAB81FC2E2A1938007A461D /* FirebaseAuth */; };
+		3DB3E4F62E462D280059E93A /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 3DB3E4F52E462D280059E93A /* FirebaseDatabase */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +60,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DAB81FB2E2A0F25007A461D /* FirebaseCore in Frameworks */,
-				3DAB81FD2E2A1938007A461D /* FirebaseAuth in Frameworks */,
+				3DA9107B2E4238EE00F0728F /* FirebaseAuth in Frameworks */,
+				3DB3E4F62E462D280059E93A /* FirebaseDatabase in Frameworks */,
 				3DAB81F92E2A0CD3007A461D /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,7 +133,8 @@
 			packageProductDependencies = (
 				3DAB81F82E2A0CD3007A461D /* FirebaseFirestore */,
 				3DAB81FA2E2A0F25007A461D /* FirebaseCore */,
-				3DAB81FC2E2A1938007A461D /* FirebaseAuth */,
+				3DA9107A2E4238EE00F0728F /* FirebaseAuth */,
+				3DB3E4F52E462D280059E93A /* FirebaseDatabase */,
 			);
 			productName = "Randevu Sistemi";
 			productReference = 3DAB817F2E291C4F007A461D /* Randevu Sistemi.app */;
@@ -224,8 +227,8 @@
 			projectRoot = "";
 			targets = (
 				3DAB817E2E291C4F007A461D /* Randevu Sistemi */,
-				3DAB818E2E291C50007A461D /* Randevu SistemiTests */,
 				3DAB81982E291C50007A461D /* Randevu SistemiUITests */,
+				3DAB818E2E291C50007A461D /* Randevu SistemiTests */,
 			);
 		};
 /* End PBXProject section */
@@ -393,6 +396,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				EXPLICIT_MODULE_BUILD = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -594,6 +598,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		3DA9107A2E4238EE00F0728F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DAB81AF2E2924B7007A461D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
 		3DAB81F82E2A0CD3007A461D /* FirebaseFirestore */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3DAB81AF2E2924B7007A461D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
@@ -604,10 +613,10 @@
 			package = 3DAB81AF2E2924B7007A461D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseCore;
 		};
-		3DAB81FC2E2A1938007A461D /* FirebaseAuth */ = {
+		3DB3E4F52E462D280059E93A /* FirebaseDatabase */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3DAB81AF2E2924B7007A461D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAuth;
+			productName = FirebaseDatabase;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

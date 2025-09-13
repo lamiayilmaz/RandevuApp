@@ -2,11 +2,11 @@
 //  AsistantPanel.swift
 //  Randevu Sistemi
 //
-//  Created by Lamia Yılmaz on 7/23/25.
+//  Created by Lamia Yılmaz 
 //
 
 import SwiftUI
-struct AsistanPanel:View{
+struct AsistantPanel:View{
     var body:some View{
         VStack{
             Image("yuvarlak")
@@ -61,5 +61,5 @@ struct AsistanPanel:View{
     }
 
 #Preview {
-    AsistanPanel()
+    AsistantPanel()
 }

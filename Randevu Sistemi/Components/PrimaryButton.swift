@@ -13,7 +13,7 @@ struct PrimaryButton: View {
     var backgroundColor: Color = Color(red: 1.0, green: 0.7, blue: 0.8)
     var textColor: Color = .pink
     var image: UIImage?
-    
+    var isSelected:Bool = false
     var body: some View {
         
         HStack {
@@ -23,7 +23,7 @@ struct PrimaryButton: View {
                     .foregroundColor(textColor)
                     .padding()
                     .frame(maxWidth: .infinity)
-                    .background(backgroundColor)
+                    .background(isSelected ? Color.green : backgroundColor)
                     .cornerRadius(10)
             }
         }
@@ -31,5 +31,5 @@ struct PrimaryButton: View {
 }
 
 #Preview {
-    PrimaryButton(title: "Giriş Yap", action: {} )
+    PrimaryButton(title: "Giriş Yap", action: {},isSelected:false)
 }
