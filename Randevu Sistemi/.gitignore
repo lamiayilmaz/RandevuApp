@@ -1,0 +1,9 @@
+//
+//  .gitignore
+//  Randevu Sistemi
+//
+//  Created by Lamia Yılmaz
+//
+
+Packages/
+.build/
